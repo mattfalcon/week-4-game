@@ -1,3 +1,4 @@
+
 //Score to Match
 //variables ScoreToMatch, Your Score, 
 //Assign Random Numbers to Image
@@ -92,7 +93,13 @@ var loss = 0;
 			$('#win').html(win);
 			reset();
 		}
-
+		if (score > randomNumber)
+		{
+			alert ('you lose');
+			loss++;
+			$('#loss').html(loss);
+			reset();
+		}
 		});
 
 
