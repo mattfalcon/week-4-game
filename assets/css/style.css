@@ -1,0 +1,15 @@
+
+p {
+	color: green;
+}
+
+img {
+	width: 150px;
+	height: 150px;
+}
+
+#sapphire,
+#emerald
+	{
+		height: 150px;
+	}
